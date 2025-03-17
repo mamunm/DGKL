@@ -1,0 +1,55 @@
+[2025-02-20 02:54:33](00:00:00) Strat ensemble training...
+[2025-02-20 02:54:33](00:00:00) PyTorch Version: 2.4.0+cu121
+[2025-02-20 02:54:33](00:00:00) Max epochs: 100, Seed: 67926
+[2025-02-20 02:54:33](00:00:00) Hyperparameter tuning started...
+[2025-02-20 06:54:02](03:59:28) Hyperparameter tuning finished.
+[2025-02-20 06:54:02](03:59:28) Best config:  {'batch_size': 32, 'num_layers': 5, 'hidden_channels': 256, 'num_radial': 25, 'readout': 'add', 'activation': 'ssp', 'optimizer': 'adam', 'scheduler': 'reduce_on_plateau', 'learning_rate': 0.0006596983795762899}
+[2025-02-20 06:54:02](03:59:28) Top K configurations saved to top_k_configs.csv
+[2025-02-20 06:54:02](03:59:28) Training final model 1/5
+[2025-02-20 06:54:02](03:59:28) Database path: /home/fs01/om235/CatUncertainty/data/catalysis_hub
+[2025-02-20 06:54:02](03:59:28) Setting up data module...
+[2025-02-20 06:54:02](03:59:28) Data module setup complete!
+[2025-02-20 06:54:02](03:59:28) PaiNN model created!
+[2025-02-20 06:54:02](03:59:28) Lightning module created!
+[2025-02-20 06:54:02](03:59:28) Training started...
+[2025-02-20 08:21:34](05:27:00) Training completed!
+[2025-02-20 08:21:34](05:27:00) Training final model 2/5
+[2025-02-20 08:21:34](05:27:00) Database path: /home/fs01/om235/CatUncertainty/data/catalysis_hub
+[2025-02-20 08:21:34](05:27:00) Setting up data module...
+[2025-02-20 08:21:34](05:27:00) Data module setup complete!
+[2025-02-20 08:21:34](05:27:00) PaiNN model created!
+[2025-02-20 08:21:34](05:27:00) Lightning module created!
+[2025-02-20 08:21:34](05:27:00) Training started...
+[2025-02-20 09:24:29](06:29:55) Training completed!
+[2025-02-20 09:24:29](06:29:55) Training final model 3/5
+[2025-02-20 09:24:29](06:29:55) Database path: /home/fs01/om235/CatUncertainty/data/catalysis_hub
+[2025-02-20 09:24:29](06:29:55) Setting up data module...
+[2025-02-20 09:24:29](06:29:55) Data module setup complete!
+[2025-02-20 09:24:29](06:29:55) PaiNN model created!
+[2025-02-20 09:24:29](06:29:55) Lightning module created!
+[2025-02-20 09:24:29](06:29:56) Training started...
+[2025-02-20 09:42:40](06:48:07) Reducing learning rate from 0.0008637705932995973 to 0.00043188529664979865
+[2025-02-20 09:42:46](06:48:13) Training completed!
+[2025-02-20 09:42:47](06:48:13) Training final model 4/5
+[2025-02-20 09:42:47](06:48:13) Database path: /home/fs01/om235/CatUncertainty/data/catalysis_hub
+[2025-02-20 09:42:47](06:48:13) Setting up data module...
+[2025-02-20 09:42:47](06:48:13) Data module setup complete!
+[2025-02-20 09:42:47](06:48:13) PaiNN model created!
+[2025-02-20 09:42:47](06:48:13) Lightning module created!
+[2025-02-20 09:42:47](06:48:13) Training started...
+[2025-02-20 11:16:55](08:22:21) Training completed!
+[2025-02-20 11:16:55](08:22:21) Training final model 5/5
+[2025-02-20 11:16:55](08:22:21) Database path: /home/fs01/om235/CatUncertainty/data/catalysis_hub
+[2025-02-20 11:16:55](08:22:21) Setting up data module...
+[2025-02-20 11:16:55](08:22:21) Data module setup complete!
+[2025-02-20 11:16:55](08:22:21) PaiNN model created!
+[2025-02-20 11:16:55](08:22:21) Lightning module created!
+[2025-02-20 11:16:55](08:22:21) Training started...
+[2025-02-20 12:43:09](09:48:36) Training completed!
+[2025-02-20 12:43:10](09:48:36) Evaluating train set...
+[2025-02-20 12:45:48](09:51:14) R²: 0.9989 | RMSE: 0.0624
+[2025-02-20 12:45:48](09:51:14) Evaluating val set...
+[2025-02-20 12:46:10](09:51:37) R²: 0.9897 | RMSE: 0.1947
+[2025-02-20 12:46:10](09:51:37) Evaluating test set...
+[2025-02-20 12:46:56](09:52:22) R²: 0.9898 | RMSE: 0.1921
+[2025-02-20 12:46:56](09:52:22) ✓ Predictions saved to results.pt!

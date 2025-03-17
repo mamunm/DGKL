@@ -1,0 +1,144 @@
+[2025-03-04 13:43:40](00:00:00) Strat ensemble training...
+[2025-03-04 13:43:40](00:00:00) PyTorch Version: 2.4.0+cu121
+[2025-03-04 13:43:40](00:00:00) Max epochs: 200, Seed: 772247
+[2025-03-04 13:43:41](00:00:00) Database path: /expanse/lustre/scratch/omamun/temp_project/final_exp_catunc/CatUncertainty/data/catalysis_hub
+[2025-03-04 13:43:41](00:00:00) Setting up data module...
+[2025-03-04 13:43:41](00:00:00) Data module setup complete!
+[2025-03-04 13:43:41](00:00:01) Feature extractor created!
+[2025-03-04 13:43:47](00:00:07) Inducing points created!
+[2025-03-04 13:43:47](00:00:07) Optimizer created!
+[2025-03-04 13:43:47](00:00:07) Scheduler created!
+[2025-03-04 13:43:47](00:00:07) Starting training...
+[2025-03-04 13:44:13](00:00:33) Epoch: 0 |Train Loss: 1.5387 |Train R²: 0.6006 |Train Speed: 17.16 iter/s |Val Loss: 1.4620 |Val R²: 0.6679 |Val Speed: 22.44 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:44:13](00:00:33) Saving best model to checkpoints/best_model_epoch=0_val_loss=1.4620.pt...
+[2025-03-04 13:44:13](00:00:33) ★ New best validation metrics!
+[2025-03-04 13:44:39](00:00:59) Epoch: 1 |Train Loss: 1.4116 |Train R²: 0.6941 |Train Speed: 17.35 iter/s |Val Loss: 1.3926 |Val R²: 0.7003 |Val Speed: 26.88 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:44:39](00:00:59) Saving best model to checkpoints/best_model_epoch=1_val_loss=1.3926.pt...
+[2025-03-04 13:44:39](00:00:59) ★ New best validation metrics!
+[2025-03-04 13:45:05](00:01:25) Epoch: 2 |Train Loss: 1.3463 |Train R²: 0.7140 |Train Speed: 17.41 iter/s |Val Loss: 1.3430 |Val R²: 0.7126 |Val Speed: 27.16 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:45:05](00:01:25) Saving best model to checkpoints/best_model_epoch=2_val_loss=1.3430.pt...
+[2025-03-04 13:45:05](00:01:25) ★ New best validation metrics!
+[2025-03-04 13:45:31](00:01:51) Epoch: 3 |Train Loss: 1.2988 |Train R²: 0.7283 |Train Speed: 17.38 iter/s |Val Loss: 1.2811 |Val R²: 0.7355 |Val Speed: 22.96 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:45:31](00:01:51) Saving best model to checkpoints/best_model_epoch=3_val_loss=1.2811.pt...
+[2025-03-04 13:45:31](00:01:51) ★ New best validation metrics!
+[2025-03-04 13:45:57](00:02:17) Epoch: 4 |Train Loss: 1.2384 |Train R²: 0.7463 |Train Speed: 17.28 iter/s |Val Loss: 1.2199 |Val R²: 0.7568 |Val Speed: 25.67 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:45:57](00:02:17) Saving best model to checkpoints/best_model_epoch=4_val_loss=1.2199.pt...
+[2025-03-04 13:45:57](00:02:17) ★ New best validation metrics!
+[2025-03-04 13:46:23](00:02:43) Epoch: 5 |Train Loss: 1.1756 |Train R²: 0.7661 |Train Speed: 17.33 iter/s |Val Loss: 1.1607 |Val R²: 0.7596 |Val Speed: 26.54 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:46:23](00:02:43) Saving best model to checkpoints/best_model_epoch=5_val_loss=1.1607.pt...
+[2025-03-04 13:46:23](00:02:43) ★ New best validation metrics!
+[2025-03-04 13:46:49](00:03:09) Epoch: 6 |Train Loss: 1.1205 |Train R²: 0.7826 |Train Speed: 17.19 iter/s |Val Loss: 1.1484 |Val R²: 0.7809 |Val Speed: 26.81 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:46:49](00:03:09) Saving best model to checkpoints/best_model_epoch=6_val_loss=1.1484.pt...
+[2025-03-04 13:46:49](00:03:09) ★ New best validation metrics!
+[2025-03-04 13:47:15](00:03:35) Epoch: 7 |Train Loss: 1.0541 |Train R²: 0.8014 |Train Speed: 17.48 iter/s |Val Loss: 1.0574 |Val R²: 0.7954 |Val Speed: 26.91 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:47:15](00:03:35) Saving best model to checkpoints/best_model_epoch=7_val_loss=1.0574.pt...
+[2025-03-04 13:47:15](00:03:35) ★ New best validation metrics!
+[2025-03-04 13:47:41](00:04:00) Epoch: 8 |Train Loss: 1.0036 |Train R²: 0.8160 |Train Speed: 17.47 iter/s |Val Loss: 0.9968 |Val R²: 0.8226 |Val Speed: 26.82 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:47:41](00:04:00) Saving best model to checkpoints/best_model_epoch=8_val_loss=0.9968.pt...
+[2025-03-04 13:47:41](00:04:01) ★ New best validation metrics!
+[2025-03-04 13:48:07](00:04:26) Epoch: 9 |Train Loss: 0.9474 |Train R²: 0.8318 |Train Speed: 17.24 iter/s |Val Loss: 0.9825 |Val R²: 0.8255 |Val Speed: 27.35 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:48:07](00:04:26) Saving best model to checkpoints/best_model_epoch=9_val_loss=0.9825.pt...
+[2025-03-04 13:48:07](00:04:27) ★ New best validation metrics!
+[2025-03-04 13:48:32](00:04:52) Epoch: 10 |Train Loss: 0.8818 |Train R²: 0.8475 |Train Speed: 17.50 iter/s |Val Loss: 0.8904 |Val R²: 0.8452 |Val Speed: 26.67 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:48:32](00:04:52) Saving best model to checkpoints/best_model_epoch=10_val_loss=0.8904.pt...
+[2025-03-04 13:48:32](00:04:52) ★ New best validation metrics!
+[2025-03-04 13:48:58](00:05:18) Epoch: 11 |Train Loss: 0.8358 |Train R²: 0.8625 |Train Speed: 17.58 iter/s |Val Loss: 0.8733 |Val R²: 0.8536 |Val Speed: 26.88 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:48:58](00:05:18) Saving best model to checkpoints/best_model_epoch=11_val_loss=0.8733.pt...
+[2025-03-04 13:48:58](00:05:18) ★ New best validation metrics!
+[2025-03-04 13:49:24](00:05:44) Epoch: 12 |Train Loss: 0.7748 |Train R²: 0.8789 |Train Speed: 17.34 iter/s |Val Loss: 0.7902 |Val R²: 0.8785 |Val Speed: 27.11 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:49:24](00:05:44) Saving best model to checkpoints/best_model_epoch=12_val_loss=0.7902.pt...
+[2025-03-04 13:49:24](00:05:44) ★ New best validation metrics!
+[2025-03-04 13:49:49](00:06:09) Epoch: 13 |Train Loss: 0.7244 |Train R²: 0.8904 |Train Speed: 17.61 iter/s |Val Loss: 0.7722 |Val R²: 0.8877 |Val Speed: 26.70 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:49:49](00:06:09) Saving best model to checkpoints/best_model_epoch=13_val_loss=0.7722.pt...
+[2025-03-04 13:49:49](00:06:09) ★ New best validation metrics!
+[2025-03-04 13:50:15](00:06:35) Epoch: 14 |Train Loss: 0.6819 |Train R²: 0.9010 |Train Speed: 17.42 iter/s |Val Loss: 0.7353 |Val R²: 0.8969 |Val Speed: 27.13 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:50:15](00:06:35) Saving best model to checkpoints/best_model_epoch=14_val_loss=0.7353.pt...
+[2025-03-04 13:50:15](00:06:35) ★ New best validation metrics!
+[2025-03-04 13:50:41](00:07:01) Epoch: 15 |Train Loss: 0.6490 |Train R²: 0.9074 |Train Speed: 17.24 iter/s |Val Loss: 0.7149 |Val R²: 0.9005 |Val Speed: 26.66 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:50:41](00:07:01) Saving best model to checkpoints/best_model_epoch=15_val_loss=0.7149.pt...
+[2025-03-04 13:50:41](00:07:01) ★ New best validation metrics!
+[2025-03-04 13:51:07](00:07:26) Epoch: 16 |Train Loss: 0.6249 |Train R²: 0.9121 |Train Speed: 17.49 iter/s |Val Loss: 0.6917 |Val R²: 0.9042 |Val Speed: 26.94 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:51:07](00:07:26) Saving best model to checkpoints/best_model_epoch=16_val_loss=0.6917.pt...
+[2025-03-04 13:51:07](00:07:27) ★ New best validation metrics!
+[2025-03-04 13:51:32](00:07:52) Epoch: 17 |Train Loss: 0.6012 |Train R²: 0.9163 |Train Speed: 17.46 iter/s |Val Loss: 0.6752 |Val R²: 0.9082 |Val Speed: 27.07 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:51:32](00:07:52) Saving best model to checkpoints/best_model_epoch=17_val_loss=0.6752.pt...
+[2025-03-04 13:51:32](00:07:52) ★ New best validation metrics!
+[2025-03-04 13:51:58](00:08:18) Epoch: 18 |Train Loss: 0.5765 |Train R²: 0.9199 |Train Speed: 17.24 iter/s |Val Loss: 0.6694 |Val R²: 0.9087 |Val Speed: 27.15 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:51:58](00:08:18) Saving best model to checkpoints/best_model_epoch=18_val_loss=0.6694.pt...
+[2025-03-04 13:51:59](00:08:18) ★ New best validation metrics!
+[2025-03-04 13:52:24](00:08:44) Epoch: 19 |Train Loss: 0.5574 |Train R²: 0.9229 |Train Speed: 17.47 iter/s |Val Loss: 0.6258 |Val R²: 0.9150 |Val Speed: 27.01 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:52:24](00:08:44) Saving best model to checkpoints/best_model_epoch=19_val_loss=0.6258.pt...
+[2025-03-04 13:52:24](00:08:44) ★ New best validation metrics!
+[2025-03-04 13:52:50](00:09:10) Epoch: 20 |Train Loss: 0.5430 |Train R²: 0.9253 |Train Speed: 17.40 iter/s |Val Loss: 0.6127 |Val R²: 0.9159 |Val Speed: 27.07 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:52:50](00:09:10) Saving best model to checkpoints/best_model_epoch=20_val_loss=0.6127.pt...
+[2025-03-04 13:52:50](00:09:10) ★ New best validation metrics!
+[2025-03-04 13:53:16](00:09:36) Epoch: 21 |Train Loss: 0.5217 |Train R²: 0.9285 |Train Speed: 17.30 iter/s |Val Loss: 0.6613 |Val R²: 0.9149 |Val Speed: 27.50 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:53:16](00:09:36) Early stopping counter: 1/5 (Best val_loss: 0.6127)
+[2025-03-04 13:53:42](00:10:01) Epoch: 22 |Train Loss: 0.5109 |Train R²: 0.9304 |Train Speed: 17.37 iter/s |Val Loss: 0.6252 |Val R²: 0.9185 |Val Speed: 26.54 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:53:42](00:10:01) Early stopping counter: 2/5 (Best val_loss: 0.6127)
+[2025-03-04 13:54:07](00:10:27) Epoch: 23 |Train Loss: 0.4938 |Train R²: 0.9321 |Train Speed: 17.38 iter/s |Val Loss: 0.6439 |Val R²: 0.9163 |Val Speed: 26.89 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:54:07](00:10:27) Early stopping counter: 3/5 (Best val_loss: 0.6127)
+[2025-03-04 13:54:33](00:10:53) Epoch: 24 |Train Loss: 0.4743 |Train R²: 0.9346 |Train Speed: 17.34 iter/s |Val Loss: 0.6014 |Val R²: 0.9214 |Val Speed: 27.34 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:54:33](00:10:53) Saving best model to checkpoints/best_model_epoch=24_val_loss=0.6014.pt...
+[2025-03-04 13:54:33](00:10:53) ★ New best validation metrics!
+[2025-03-04 13:54:59](00:11:19) Epoch: 25 |Train Loss: 0.4638 |Train R²: 0.9360 |Train Speed: 17.45 iter/s |Val Loss: 0.6284 |Val R²: 0.9222 |Val Speed: 26.68 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:54:59](00:11:19) Early stopping counter: 1/5 (Best val_loss: 0.6014)
+[2025-03-04 13:55:25](00:11:45) Epoch: 26 |Train Loss: 0.4513 |Train R²: 0.9375 |Train Speed: 17.20 iter/s |Val Loss: 0.6203 |Val R²: 0.9208 |Val Speed: 26.92 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:55:25](00:11:45) Early stopping counter: 2/5 (Best val_loss: 0.6014)
+[2025-03-04 13:55:51](00:12:11) Epoch: 27 |Train Loss: 0.4374 |Train R²: 0.9389 |Train Speed: 17.22 iter/s |Val Loss: 0.5564 |Val R²: 0.9268 |Val Speed: 26.32 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:55:51](00:12:11) Saving best model to checkpoints/best_model_epoch=27_val_loss=0.5564.pt...
+[2025-03-04 13:55:51](00:12:11) ★ New best validation metrics!
+[2025-03-04 13:56:17](00:12:36) Epoch: 28 |Train Loss: 0.4286 |Train R²: 0.9402 |Train Speed: 17.43 iter/s |Val Loss: 0.5671 |Val R²: 0.9257 |Val Speed: 27.32 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:56:17](00:12:36) Early stopping counter: 1/5 (Best val_loss: 0.5564)
+[2025-03-04 13:56:42](00:13:02) Epoch: 29 |Train Loss: 0.4156 |Train R²: 0.9415 |Train Speed: 17.42 iter/s |Val Loss: 0.5360 |Val R²: 0.9292 |Val Speed: 27.15 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:56:42](00:13:02) Saving best model to checkpoints/best_model_epoch=29_val_loss=0.5360.pt...
+[2025-03-04 13:56:42](00:13:02) ★ New best validation metrics!
+[2025-03-04 13:57:08](00:13:28) Epoch: 30 |Train Loss: 0.4059 |Train R²: 0.9425 |Train Speed: 17.16 iter/s |Val Loss: 0.5438 |Val R²: 0.9297 |Val Speed: 26.76 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:57:08](00:13:28) Early stopping counter: 1/5 (Best val_loss: 0.5360)
+[2025-03-04 13:57:34](00:13:54) Epoch: 31 |Train Loss: 0.3954 |Train R²: 0.9442 |Train Speed: 17.39 iter/s |Val Loss: 0.5318 |Val R²: 0.9302 |Val Speed: 26.91 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:57:34](00:13:54) Saving best model to checkpoints/best_model_epoch=31_val_loss=0.5318.pt...
+[2025-03-04 13:57:34](00:13:54) ★ New best validation metrics!
+[2025-03-04 13:58:00](00:14:20) Epoch: 32 |Train Loss: 0.3860 |Train R²: 0.9450 |Train Speed: 17.38 iter/s |Val Loss: 0.5265 |Val R²: 0.9298 |Val Speed: 26.65 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:58:00](00:14:20) Saving best model to checkpoints/best_model_epoch=32_val_loss=0.5265.pt...
+[2025-03-04 13:58:00](00:14:20) ★ New best validation metrics!
+[2025-03-04 13:58:26](00:14:46) Epoch: 33 |Train Loss: 0.3730 |Train R²: 0.9459 |Train Speed: 17.09 iter/s |Val Loss: 0.5642 |Val R²: 0.9312 |Val Speed: 26.60 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:58:26](00:14:46) Early stopping counter: 1/5 (Best val_loss: 0.5265)
+[2025-03-04 13:58:52](00:15:12) Epoch: 34 |Train Loss: 0.3663 |Train R²: 0.9469 |Train Speed: 17.51 iter/s |Val Loss: 0.5033 |Val R²: 0.9339 |Val Speed: 26.43 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:58:52](00:15:12) Saving best model to checkpoints/best_model_epoch=34_val_loss=0.5033.pt...
+[2025-03-04 13:58:52](00:15:12) ★ New best validation metrics!
+[2025-03-04 13:59:18](00:15:37) Epoch: 35 |Train Loss: 0.3513 |Train R²: 0.9482 |Train Speed: 17.39 iter/s |Val Loss: 0.5347 |Val R²: 0.9327 |Val Speed: 27.01 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:59:18](00:15:37) Early stopping counter: 1/5 (Best val_loss: 0.5033)
+[2025-03-04 13:59:43](00:16:03) Epoch: 36 |Train Loss: 0.3412 |Train R²: 0.9493 |Train Speed: 17.26 iter/s |Val Loss: 0.5388 |Val R²: 0.9303 |Val Speed: 27.70 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 13:59:43](00:16:03) Early stopping counter: 2/5 (Best val_loss: 0.5033)
+[2025-03-04 14:00:09](00:16:29) Epoch: 37 |Train Loss: 0.3374 |Train R²: 0.9500 |Train Speed: 17.36 iter/s |Val Loss: 0.5217 |Val R²: 0.9351 |Val Speed: 27.24 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 14:00:09](00:16:29) Early stopping counter: 3/5 (Best val_loss: 0.5033)
+[2025-03-04 14:00:35](00:16:55) Epoch: 38 |Train Loss: 0.3261 |Train R²: 0.9510 |Train Speed: 17.31 iter/s |Val Loss: 0.5081 |Val R²: 0.9366 |Val Speed: 27.01 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 14:00:35](00:16:55) Early stopping counter: 4/5 (Best val_loss: 0.5033)
+[2025-03-04 14:01:01](00:17:21) Epoch: 39 |Train Loss: 0.3216 |Train R²: 0.9516 |Train Speed: 17.19 iter/s |Val Loss: 0.5184 |Val R²: 0.9359 |Val Speed: 26.98 iter/s |FE LR: 1.00e-05 |SVGP LR: 1.00e-02 |Likelihood LR: 1.00e-02
+[2025-03-04 14:01:01](00:17:21) Early stopping counter: 5/5 (Best val_loss: 0.5033)
+[2025-03-04 14:01:01](00:17:21) 
+Early stopping triggered! No improvement in validation loss for 5 epochs.
+[2025-03-04 14:01:01](00:17:21) 
+Training stopped early at epoch 40/200
+[2025-03-04 14:01:01](00:17:21) 
+Saving final model...
+[2025-03-04 14:01:03](00:17:23) ✓ Model saved to model.pt!
+[2025-03-04 14:01:03](00:17:23) 
+✓ Training completed successfully!
+[2025-03-04 14:01:03](00:17:23) Best validation metrics:
+• Loss: 0.5033
+• R²: 0.9339
+[2025-03-04 14:01:03](00:17:23) 
+Evaluating train set...
+[2025-03-04 14:01:16](00:17:35) • R²: 0.9502
+[2025-03-04 14:01:16](00:17:35) • RMSE: 0.4283
+[2025-03-04 14:01:16](00:17:35) 
+Evaluating val set...
+[2025-03-04 14:01:18](00:17:38) • R²: 0.9339
+[2025-03-04 14:01:18](00:17:38) • RMSE: 0.4959
+[2025-03-04 14:01:18](00:17:38) 
+Evaluating test set...
+[2025-03-04 14:01:22](00:17:41) • R²: 0.9398
+[2025-03-04 14:01:22](00:17:41) • RMSE: 0.4642
+[2025-03-04 14:01:22](00:17:42) 
+✓ Results saved to results.pt!

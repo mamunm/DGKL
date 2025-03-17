@@ -1,0 +1,54 @@
+[2025-02-16 03:08:25](00:00:00) Strat ensemble training...
+[2025-02-16 03:08:25](00:00:00) PyTorch Version: 2.4.0+cu121
+[2025-02-16 03:08:25](00:00:00) Max epochs: 100, Seed: 81129
+[2025-02-16 03:08:25](00:00:00) Hyperparameter tuning started...
+[2025-02-16 09:26:09](06:17:43) Hyperparameter tuning finished.
+[2025-02-16 09:26:09](06:17:43) Best config:  {'batch_size': 64, 'hidden_channels': 128, 'num_filters': 128, 'num_interactions': 4, 'cfconv_num_dense': 6, 'interaction_num_dense': 4, 'num_gaussians': 50, 'readout': 'mean', 'activation': 'relu', 'optimizer': 'adam', 'scheduler': 'reduce_on_plateau', 'learning_rate': 0.00032204162136101203}
+[2025-02-16 09:26:09](06:17:43) Top K configurations saved to top_k_configs.csv
+[2025-02-16 09:26:09](06:17:43) Training final model 1/5
+[2025-02-16 09:26:09](06:17:43) Database path: /home/fs01/om235/CatUncertainty/data/open_catalyst_20/eagle_split
+[2025-02-16 09:26:09](06:17:43) Setting up data module...
+[2025-02-16 09:26:09](06:17:43) Data module setup complete!
+[2025-02-16 09:26:09](06:17:43) SchNet model created!
+[2025-02-16 09:26:09](06:17:43) Lightning module created!
+[2025-02-16 09:26:09](06:17:43) Training started...
+[2025-02-16 10:01:29](06:53:04) Training completed!
+[2025-02-16 10:01:30](06:53:04) Training final model 2/5
+[2025-02-16 10:01:30](06:53:04) Database path: /home/fs01/om235/CatUncertainty/data/open_catalyst_20/eagle_split
+[2025-02-16 10:01:30](06:53:04) Setting up data module...
+[2025-02-16 10:01:30](06:53:04) Data module setup complete!
+[2025-02-16 10:01:30](06:53:04) SchNet model created!
+[2025-02-16 10:01:30](06:53:04) Lightning module created!
+[2025-02-16 10:01:30](06:53:04) Training started...
+[2025-02-16 10:38:55](07:30:29) Training completed!
+[2025-02-16 10:38:55](07:30:29) Training final model 3/5
+[2025-02-16 10:38:55](07:30:29) Database path: /home/fs01/om235/CatUncertainty/data/open_catalyst_20/eagle_split
+[2025-02-16 10:38:55](07:30:29) Setting up data module...
+[2025-02-16 10:38:55](07:30:29) Data module setup complete!
+[2025-02-16 10:38:55](07:30:29) SchNet model created!
+[2025-02-16 10:38:55](07:30:29) Lightning module created!
+[2025-02-16 10:38:55](07:30:29) Training started...
+[2025-02-16 11:20:55](08:12:29) Training completed!
+[2025-02-16 11:20:55](08:12:29) Training final model 4/5
+[2025-02-16 11:20:55](08:12:29) Database path: /home/fs01/om235/CatUncertainty/data/open_catalyst_20/eagle_split
+[2025-02-16 11:20:55](08:12:29) Setting up data module...
+[2025-02-16 11:20:55](08:12:29) Data module setup complete!
+[2025-02-16 11:20:55](08:12:29) SchNet model created!
+[2025-02-16 11:20:55](08:12:29) Lightning module created!
+[2025-02-16 11:20:55](08:12:29) Training started...
+[2025-02-16 12:03:57](08:55:31) Training completed!
+[2025-02-16 12:03:57](08:55:31) Training final model 5/5
+[2025-02-16 12:03:57](08:55:31) Database path: /home/fs01/om235/CatUncertainty/data/open_catalyst_20/eagle_split
+[2025-02-16 12:03:57](08:55:31) Setting up data module...
+[2025-02-16 12:03:57](08:55:31) Data module setup complete!
+[2025-02-16 12:03:57](08:55:31) SchNet model created!
+[2025-02-16 12:03:57](08:55:31) Lightning module created!
+[2025-02-16 12:03:57](08:55:31) Training started...
+[2025-02-16 12:35:20](09:26:54) Training completed!
+[2025-02-16 12:35:20](09:26:54) Evaluating train set...
+[2025-02-16 12:36:17](09:27:52) R²: 0.8559 | RMSE: 0.5819
+[2025-02-16 12:36:17](09:27:52) Evaluating val set...
+[2025-02-16 12:36:26](09:28:00) R²: 0.8061 | RMSE: 0.6694
+[2025-02-16 12:36:26](09:28:00) Evaluating test set...
+[2025-02-16 12:36:43](09:28:17) R²: 0.8151 | RMSE: 0.6577
+[2025-02-16 12:36:43](09:28:17) ✓ Predictions saved to results.pt!

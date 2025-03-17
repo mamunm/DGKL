@@ -1,0 +1,54 @@
+[2025-02-17 01:00:07](00:00:00) Strat ensemble training...
+[2025-02-17 01:00:07](00:00:00) PyTorch Version: 2.4.0+cu121
+[2025-02-17 01:00:07](00:00:00) Max epochs: 100, Seed: 78523
+[2025-02-17 01:00:07](00:00:00) Hyperparameter tuning started...
+[2025-02-17 03:46:16](02:46:08) Hyperparameter tuning finished.
+[2025-02-17 03:46:16](02:46:08) Best config:  {'batch_size': 32, 'hidden_channels': 256, 'num_filters': 32, 'num_interactions': 2, 'cfconv_num_dense': 2, 'interaction_num_dense': 2, 'num_gaussians': 75, 'readout': 'add', 'activation': 'gelu', 'optimizer': 'adamw', 'scheduler': 'cosine', 'learning_rate': 0.0004070134079924442}
+[2025-02-17 03:46:16](02:46:08) Top K configurations saved to top_k_configs.csv
+[2025-02-17 03:46:16](02:46:08) Training final model 1/5
+[2025-02-17 03:46:16](02:46:08) Database path: /home/fs01/om235/CatUncertainty/data/catalysis_hub
+[2025-02-17 03:46:16](02:46:08) Setting up data module...
+[2025-02-17 03:46:16](02:46:08) Data module setup complete!
+[2025-02-17 03:46:16](02:46:08) SchNet model created!
+[2025-02-17 03:46:16](02:46:08) Lightning module created!
+[2025-02-17 03:46:16](02:46:08) Training started...
+[2025-02-17 04:17:24](03:17:16) Training completed!
+[2025-02-17 04:17:24](03:17:16) Training final model 2/5
+[2025-02-17 04:17:24](03:17:16) Database path: /home/fs01/om235/CatUncertainty/data/catalysis_hub
+[2025-02-17 04:17:24](03:17:16) Setting up data module...
+[2025-02-17 04:17:24](03:17:16) Data module setup complete!
+[2025-02-17 04:17:24](03:17:16) SchNet model created!
+[2025-02-17 04:17:24](03:17:16) Lightning module created!
+[2025-02-17 04:17:24](03:17:16) Training started...
+[2025-02-17 04:45:38](03:45:30) Training completed!
+[2025-02-17 04:45:38](03:45:30) Training final model 3/5
+[2025-02-17 04:45:38](03:45:30) Database path: /home/fs01/om235/CatUncertainty/data/catalysis_hub
+[2025-02-17 04:45:38](03:45:30) Setting up data module...
+[2025-02-17 04:45:38](03:45:30) Data module setup complete!
+[2025-02-17 04:45:38](03:45:30) SchNet model created!
+[2025-02-17 04:45:38](03:45:30) Lightning module created!
+[2025-02-17 04:45:38](03:45:30) Training started...
+[2025-02-17 05:06:05](04:05:57) Training completed!
+[2025-02-17 05:06:05](04:05:57) Training final model 4/5
+[2025-02-17 05:06:05](04:05:57) Database path: /home/fs01/om235/CatUncertainty/data/catalysis_hub
+[2025-02-17 05:06:05](04:05:57) Setting up data module...
+[2025-02-17 05:06:05](04:05:57) Data module setup complete!
+[2025-02-17 05:06:05](04:05:57) SchNet model created!
+[2025-02-17 05:06:05](04:05:57) Lightning module created!
+[2025-02-17 05:06:05](04:05:57) Training started...
+[2025-02-17 05:27:19](04:27:11) Training completed!
+[2025-02-17 05:27:19](04:27:11) Training final model 5/5
+[2025-02-17 05:27:19](04:27:11) Database path: /home/fs01/om235/CatUncertainty/data/catalysis_hub
+[2025-02-17 05:27:19](04:27:11) Setting up data module...
+[2025-02-17 05:27:19](04:27:11) Data module setup complete!
+[2025-02-17 05:27:19](04:27:11) SchNet model created!
+[2025-02-17 05:27:19](04:27:11) Lightning module created!
+[2025-02-17 05:27:19](04:27:11) Training started...
+[2025-02-17 05:49:04](04:48:57) Training completed!
+[2025-02-17 05:49:05](04:48:57) Evaluating train set...
+[2025-02-17 05:49:18](04:49:10) R²: 0.9919 | RMSE: 0.1719
+[2025-02-17 05:49:18](04:49:10) Evaluating val set...
+[2025-02-17 05:49:20](04:49:12) R²: 0.9799 | RMSE: 0.2723
+[2025-02-17 05:49:20](04:49:12) Evaluating test set...
+[2025-02-17 05:49:24](04:49:16) R²: 0.9799 | RMSE: 0.2711
+[2025-02-17 05:49:24](04:49:16) ✓ Predictions saved to results.pt!
