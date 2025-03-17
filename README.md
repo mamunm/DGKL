@@ -4,12 +4,12 @@ A Python-based project focused on uncertainty quantification for catalytic data 
 
 ## Overview
 
-This repository contains implementations for uncertainty quantification in catalysis research, with a focus on machine learning approaches. The project uses PyTorch and related libraries for deep learning implementations.
+Implements the code for the paper "Deep Graph Kernel Learning for Material & Atomic Level Uncertainty Quantification in Adsorption Energy Prediction".
 
 ## Project Structure
 
 - `cat_uncertainty/`: Main package containing the core implementation
-- `experiments/`: Directory containing experimental scripts and results
+- `experiments/`: Directory containing experimental scripts. Results are not included due to size limit.
 
 ## Dependencies
 
